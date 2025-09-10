@@ -5,8 +5,16 @@ Een project voor de bibliotheek Heerenveen waar we met lego een krokodil bouwen 
 - LEGO Education WeDo 2.0
 - een laptop met internet
 - Scratch, Ga naar https://scratch.mit.edu/
-- Schakel de WeDo extensie in, zodat er aan de linkerkant de volgende optie beschikbaar wordt:
-![wedo extension](images/scratch_wedo_extension.png). Deze extensie maakt gebruik van Scratch Link. Dit is reeds geinstalleerd op de laptop.
+- Schakel de WeDo extensie in, zodat er aan de linkerkant de volgende optie beschikbaar wordt (zie screenshot):
+. De WeDo extensie maakt gebruik van Scratch Link. Dit is al voor geinstalleerd op de laptop.
+
+<details>
+<summary>screemshot: LEGO WeDO2.0 in scratch</summary>
+
+![wedo extension](images/scratch_wedo_extension.png)
+
+</details>
+
 
 ## Welkom 
 Onderstaande stappen laten je kennis maken met alle onderdelen. Probeer eerst zelf de oplossing te maken. Bij iedere stap zit een uitwerking, deze kun je bekijken als je zelf er even niet uitkomt.
@@ -36,46 +44,30 @@ Zelf goede ideeen? Gewoon doen. Belangrijk is dat de motor en de bewegingssensor
 <details>
 <summary>uitwerking: Krodil bek open (stap2)</summary>
 
-![scratch: stap2](images/krokodil_stap1.jpg)
-![makecode](images/codeStap2.png)
+![scratch: stap2](images/krokodil_stap2.jpg)
 
-```javascript
-input.onButtonPressed(Button.A, function () {
-    music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
-    for (let index = 0; index < 3; index++) {
-        pins.digitalWritePin(DigitalPin.P0, 1)
-        basic.pause(100)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        basic.pause(100)
-    }})
-```
 </details>
 
 
 ## De bek gaat dicht als je er iets in stopt (stap3)
-**doel:** bewegingsensor gebruiken en de motor activeren.
-**wat moet je doen?** aansluiten bewegingssensor en zorgen dat het alarm afgaat als iemand in de buurt komt.
+**doel:** afstandsensor gebruiken en de motor activeren.
+**wat moet je doen?** Lees de afstandsensor uit en zorg dat de krokodil bek hapt. 
 
 <details>
-<summary>uitwerking: Boef gedetecteerd (stap3)</summary>
+<summary>uitwerking: Krokodil hapt (stap3)</summary>
 
-![micro.bit setup](images/microbitStap3.jpg)
-![makecode](images/codeStap3.png)
+![scratch: stap3](images/krokodil_stap3.jpg)
 
-```javascript
-basic.forever(function () {
-    if (grove.measureInInches(DigitalPin.P1) < 10) {
-        basic.showIcon(IconNames.No)
-    } else {
-        basic.showIcon(IconNames.Yes)
-    }})
-```
+</details>
+
+### testen
+Om te kijken of alles goed werkt kun je een code toevoegen om goed te kunnen testen. Laat de krokodil zijn bek openen als je op bijvoorbeeld de spatiebalk drukt van de laptop.
+<details>
+<summary>uitwerking: Krokodil hapt (stap3 testen)</summary>
+
+![scratch: stap3 tip](images/krokodil_stap3_tip.jpg)
+
 </details>
 
 
 
-## hoe wil je het inbraakalarm uitbreiden? (extra stap)
-**surgesties:**  
-* led strip gebruiken ipv led [moeilijkheidsgraad: MIDDEN]
-* tellen hoe vaak het alarm is afgegaan en op het schermpje tonen [moeilijkheidsgraad: MIDDEN]
-* radio sigaal doorsturen naar de tweede micro.bit [moeilijkheidsgraad: MOEILIJK]

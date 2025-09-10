@@ -69,8 +69,8 @@ Om te kijken of alles goed werkt kun je een code toevoegen om goed te kunnen tes
 
 </details>
 
-## scratch project (achtergrond)
-<https://robotics.benedettelli.com/lego-wedo2-crocodile/>
+### scratch project (achtergrond)
+<https://scratch.mit.edu/projects/1215414544>
 
-## credits 
+### credits 
 <https://robotics.benedettelli.com/lego-wedo2-crocodile/>

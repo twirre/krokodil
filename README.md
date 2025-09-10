@@ -1,17 +1,17 @@
 # krokodil
 Een project voor de bibliotheek Heerenveen waar we met lego een krokodil bouwen die we met scratch laten happen. 
 
-Wat heb je nodig
-- Lego WeDo 2.0
+## Wat heb je nodig
+- LEGO Education WeDo 2.0
 - een laptop met internet
-- Ga naar Scratch, https://scratch.mit.edu/
+- Scratch, Ga naar https://scratch.mit.edu/
 - Schakel de WeDo extensie in, zodat er aan de linkerkant de volgende optie beschikbaar wordt:
-![wedo extension](images/scratch_wedo_extension.png)
+![wedo extension](images/scratch_wedo_extension.png). Deze extensie maakt gebruik van Scratch Link. Dit is reeds geinstalleerd op de laptop.
 
+## Welkom 
 Onderstaande stappen laten je kennis maken met alle onderdelen. Probeer eerst zelf de oplossing te maken. Bij iedere stap zit een uitwerking, deze kun je bekijken als je zelf er even niet uitkomt.
 
-## Welkom (stap1)
-**doel:** krokodil bouwen
+## Krokodil bouwen (stap1)
 **wat moet je doen?** Zorg ervoor dat je een krokodil bouwt. het makkelijkste is door de instructies te volgen. 
 Zelf goede ideeen? Gewoon doen. Belangrijk is dat de motor en de bewegingssensor goed zitten. En uiteraard dat je met de motor de bek van de krodil open en dicht kunt maken. 
 
@@ -21,20 +21,22 @@ Zelf goede ideeen? Gewoon doen. Belangrijk is dat de motor en de bewegingssensor
 <details>
 <summary>uitwerking: Welkom (stap1)</summary>
 
-![krokodil: stap1.](images/krokodil_stap1.jpg)
+![LEGO WeDO2.0: stap1.](images/krokodil_stap1.jpg)
 
 </details>
 
-## De bek gaat open (stap2)
-**doel:** scratch progameren
-**wat moet je doen?** Ansluiten grove led. Als je op de knop A drukt moet de micro.bit één keer geluid maken het de led driekeer laten knipperen 
+## De bek van de krokodil gaat open (stap2)
+**doel:** maak een programma die de bek van de krokodil open doet als je het programma startn.
+**wat moet je doen?** bouw in scratch een start. Laat de bek open gaan en na een paar seconden weer automatisch dicht.
 
+> [!TIP]
+> Voor deze stap moet je de WeDo motor besturen. 
 
 
 <details>
-<summary>uitwerking: Alarm! (stap2)</summary>
+<summary>uitwerking: Krodil bek open (stap2)</summary>
 
-![micro.bit setup](images/microbitStap2.jpg)
+![scratch: stap2](images/krokodil_stap1.jpg)
 ![makecode](images/codeStap2.png)
 
 ```javascript

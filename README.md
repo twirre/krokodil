@@ -69,7 +69,10 @@ Om te kijken of alles goed werkt kun je een code toevoegen om goed te kunnen tes
 
 </details>
 
-### scratch project (achtergrond)
+
+## Achtergrond info 
+
+### scratch project 
 <https://scratch.mit.edu/projects/1215414544>
 
 ### credits 
